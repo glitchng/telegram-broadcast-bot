@@ -1,13 +1,12 @@
 {
   "name": "telegram-broadcast-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for automated USDT withdrawal messages",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.0.0",
     "node-telegram-bot-api": "^0.61.0"
   }
 }
