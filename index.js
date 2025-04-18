@@ -32,7 +32,7 @@ function sendWithdrawalMessage() {
   const wallet = getRandomWallet();
   const timestamp = getCurrentTimestamp();
 
-  const message = `✅ *Test Withdrawal*\n\n💸 *Amount:* ${amount} USDT\n🏦 *Wallet:* \\`${wallet}\\`\n📆 *Date:* ${timestamp}`;
+  const message = `✅ *Test Withdrawal*\n\n💸 *Amount:* ${amount} USDT\n🏦 *Wallet:* \`${wallet}\`\n📆 *Date:* ${timestamp}`;
 
   bot.sendMessage(process.env.CHANNEL_ID, message, { parse_mode: "Markdown" });
 }
